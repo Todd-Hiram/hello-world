@@ -1,0 +1,7 @@
+c:\users\hiram todd\source\repos\ConsoleApplicationTodd\ConsoleApplicationTodd\bin\Debug\ConsoleApplicationTodd.exe.config
+c:\users\hiram todd\source\repos\ConsoleApplicationTodd\ConsoleApplicationTodd\bin\Debug\ConsoleApplicationTodd.exe
+c:\users\hiram todd\source\repos\ConsoleApplicationTodd\ConsoleApplicationTodd\bin\Debug\ConsoleApplicationTodd.pdb
+c:\users\hiram todd\source\repos\ConsoleApplicationTodd\ConsoleApplicationTodd\obj\Debug\ConsoleApplicationTodd.csprojAssemblyReference.cache
+c:\users\hiram todd\source\repos\ConsoleApplicationTodd\ConsoleApplicationTodd\obj\Debug\ConsoleApplicationTodd.csproj.CoreCompileInputs.cache
+c:\users\hiram todd\source\repos\ConsoleApplicationTodd\ConsoleApplicationTodd\obj\Debug\ConsoleApplicationTodd.exe
+c:\users\hiram todd\source\repos\ConsoleApplicationTodd\ConsoleApplicationTodd\obj\Debug\ConsoleApplicationTodd.pdb
