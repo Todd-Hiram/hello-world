@@ -37,7 +37,7 @@ namespace MegaDesk_3_HiramTodd
 
 		private void ExitButton_Click(object sender, EventArgs e)
 		{
-
+			Application.Exit();
 		}
 
 		private void MainMenu_Load(object sender, EventArgs e)

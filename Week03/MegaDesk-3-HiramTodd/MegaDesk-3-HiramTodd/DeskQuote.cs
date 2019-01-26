@@ -8,38 +8,70 @@ namespace MegaDesk_3_HiramTodd
 {
 	class DeskQuote
 	{
-		#region Object member variables
-		private string CustomerName;
-		private DateTime QuotDate;
-		private Desk newDesk = new Desk();
-		private int RushDays;
-		private int QuoteAmount;
+		#region
+		//Quote information
+		public string CustomerName;
+		public DateTime QuoteDate;
+		public Desk Desk = new Desk();
+		public int QuoteTotal;
+		public int RushDays;
 		#endregion
 
-		#region local variables
-
+		#region
+		private const int BASE_PRICE = 200;
+		private const int THRESHOLD_SIZE = 1000;
+		private const int THRESHOLD_RUSH = 2000;
+		private const int PER_DRAWER_PRICE = 50;
+		private const int PER_AREA_PRICE = 1;
 		#endregion
 
-		private const int PRICE_BASE = 200;
-		private const int SIZE_THRESHOLD = 1000;
-		private const int PRICE_PER_DRAWER = 50;
-
-
-		public DeskQuote(int width, int depth, int drawers, string materials, int rushDays)
+		public DeskQuote(string customterName, DateTime quoteDate, int width, int depth, int drawers, Desk.Material material, int rushDays)
 		{
-			newDesk.Width = width;
-			newDesk.Depth = depth;
-			newDesk.NumberOfDrawers = drawers;
+			CustomerName = customterName;
+			QuoteDate = quoteDate;
+			Desk.Width = width;
+			Desk.Depth = depth;
+			Desk.Drawers = drawers;
+			Desk.DeskMaterial = material;
+			RushDays = rushDays;
+
+			//Store and calculate area
+			Desk.Area = Desk.Width * Desk.Depth;
+
 		}
 
-		public int CalculateQuoteTotal()
+		// Get quote for desk
+		public int quoteCalc()
 		{
-			return PRICE_BASE * DrawerCost();
+			QuoteTotal = BASE_PRICE + AreaCost() + DrawerCost() + (int)Desk.DeskMaterial + RushCost();
+			return QuoteTotal;
 		}
 
+		// Get the area cost of desk
+		private int AreaCost()
+		{
+			if (Desk.Area > THRESHOLD_SIZE)
+			{
+				return (Desk.Area - THRESHOLD_RUSH) * PER_DRAWER_PRICE;
+			}
+			else
+			{
+				return 0;
+			}
+		}
+
+		// Get the cost of drawers
 		private int DrawerCost()
 		{
-			return newDesk.NumberOfDrawers * PRICE_PER_DRAWER;
+			int DrawerCost = Desk.Drawers * PER_AREA_PRICE;
+			return DrawerCost;
+		}
+
+		// Get cost of rush option
+		private int RushCost()
+		{
+
 		}
 	}
+
 }
