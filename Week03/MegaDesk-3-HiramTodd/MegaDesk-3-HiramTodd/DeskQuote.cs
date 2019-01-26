@@ -25,7 +25,7 @@ namespace MegaDesk_3_HiramTodd
 		private const int PER_AREA_PRICE = 1;
 		#endregion
 
-		public DeskQuote(string customterName, DateTime quoteDate, int width, int depth, int drawers, Desk.Material material, int rushDays)
+		public DeskQuote(string customterName, DateTime quoteDate, int width, int depth, int drawers, Desk.Material material, int rushODays)
 		{
 			CustomerName = customterName;
 			QuoteDate = quoteDate;
@@ -33,7 +33,7 @@ namespace MegaDesk_3_HiramTodd
 			Desk.Depth = depth;
 			Desk.Drawers = drawers;
 			Desk.DeskMaterial = material;
-			RushDays = rushDays;
+			RushDays = rushODays;
 
 			//Store and calculate area
 			Desk.Area = Desk.Width * Desk.Depth;
@@ -67,11 +67,11 @@ namespace MegaDesk_3_HiramTodd
 			return DrawerCost;
 		}
 
-		// Get cost of rush option
-		private int RushCost()
-		{
-
-		}
+		//// Get cost of rush option
+		//private int RushDays()
+		//{
+		//	int rushCost = 0;
+		//}
 	}
 
 }

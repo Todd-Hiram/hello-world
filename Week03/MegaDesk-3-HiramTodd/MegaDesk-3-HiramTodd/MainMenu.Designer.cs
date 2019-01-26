@@ -84,10 +84,12 @@
 			// 
 			// pictureBox1
 			// 
+			this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(259, 32);
+			this.pictureBox1.Location = new System.Drawing.Point(322, 32);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(515, 389);
+			this.pictureBox1.Size = new System.Drawing.Size(302, 389);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.pictureBox1.TabIndex = 4;
 			this.pictureBox1.TabStop = false;
 			// 
@@ -96,7 +98,7 @@
 			this.MainMenuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.MainMenuLabel.Location = new System.Drawing.Point(65, 32);
 			this.MainMenuLabel.Name = "MainMenuLabel";
-			this.MainMenuLabel.Size = new System.Drawing.Size(150, 25);
+			this.MainMenuLabel.Size = new System.Drawing.Size(150, 38);
 			this.MainMenuLabel.TabIndex = 5;
 			this.MainMenuLabel.Text = "Main Menu";
 			this.MainMenuLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -105,7 +107,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(734, 450);
 			this.Controls.Add(this.MainMenuLabel);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.ExitButton);
