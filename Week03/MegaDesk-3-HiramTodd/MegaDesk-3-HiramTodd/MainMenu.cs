@@ -19,7 +19,10 @@ namespace MegaDesk_3_HiramTodd
 
 		private void AddNewQuote_Click(object sender, EventArgs e)
 		{
-
+			AddQuote addNewQuoteForm = new AddQuote();
+			addNewQuoteForm.Tag = this;
+			addNewQuoteForm.Show(this);
+			Hide();
 		}
 
 		private void ViewQuotes_Click(object sender, EventArgs e)
