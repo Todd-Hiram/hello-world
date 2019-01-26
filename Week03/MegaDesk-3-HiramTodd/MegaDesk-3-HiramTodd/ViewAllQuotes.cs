@@ -1,14 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-// This form will display all the quotes by reading from the a text file where quotes are stored.
+using System.Windows.Forms;
 
 namespace MegaDesk_3_HiramTodd
 {
-	class ViewAllQuotes
+	public partial class ViewAllQuotes : Form
 	{
+		public ViewAllQuotes()
+		{
+			InitializeComponent();
+		}
+
+		private void ViewAllQuotes_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

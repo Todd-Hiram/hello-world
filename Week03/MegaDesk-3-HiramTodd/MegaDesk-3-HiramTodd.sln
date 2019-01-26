@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaDesk-3-HiramTodd", "MegaDesk-3-HiramTodd\MegaDesk-3-HiramTodd.csproj", "{A2AA4A55-02FA-4322-8D08-83233D6E136D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaDesk-3-HiramTodd", "MegaDesk-3-HiramTodd\MegaDesk-3-HiramTodd.csproj", "{046A495F-C8C5-471A-8898-D8AD8BC2F4EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A2AA4A55-02FA-4322-8D08-83233D6E136D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2AA4A55-02FA-4322-8D08-83233D6E136D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2AA4A55-02FA-4322-8D08-83233D6E136D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2AA4A55-02FA-4322-8D08-83233D6E136D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046A495F-C8C5-471A-8898-D8AD8BC2F4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046A495F-C8C5-471A-8898-D8AD8BC2F4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046A495F-C8C5-471A-8898-D8AD8BC2F4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046A495F-C8C5-471A-8898-D8AD8BC2F4EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5EEE4B52-77AC-4C72-9E56-B843CC9C25EC}
+		SolutionGuid = {F2C17C8A-2459-4946-88FC-7538D018322E}
 	EndGlobalSection
 EndGlobal

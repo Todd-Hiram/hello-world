@@ -1,14 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-// This user interface form allows the user to pick a material type from a combo box and displays all quotes with that material.
+using System.Windows.Forms;
 
 namespace MegaDesk_3_HiramTodd
 {
-	class SearchQuotes
+	public partial class SearchQuotes : Form
 	{
+		public SearchQuotes()
+		{
+			InitializeComponent();
+		}
+
+		private void SearchQuotes_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

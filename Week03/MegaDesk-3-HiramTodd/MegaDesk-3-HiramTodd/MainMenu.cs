@@ -17,27 +17,27 @@ namespace MegaDesk_3_HiramTodd
 			InitializeComponent();
 		}
 
-		private void addNewQuoteButton_Click(object sender, EventArgs e)
+		private void AddNewQuote_Click(object sender, EventArgs e)
 		{
 
 		}
 
-		private void viewQuotesButton_Click(object sender, EventArgs e)
+		private void ViewQuotes_Click(object sender, EventArgs e)
 		{
 
 		}
 
-		private void SearchQuotesButton_Click(object sender, EventArgs e)
+		private void SearchQuotes_Click(object sender, EventArgs e)
 		{
 
 		}
 
-		private void exitButton_Click(object sender, EventArgs e)
+		private void ExitButton_Click(object sender, EventArgs e)
 		{
 
 		}
 
-		private void pictureBox1_Click(object sender, EventArgs e)
+		private void MainMenu_Load(object sender, EventArgs e)
 		{
 
 		}
