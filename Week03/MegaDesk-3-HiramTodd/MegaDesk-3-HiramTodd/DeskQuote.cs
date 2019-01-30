@@ -41,31 +41,31 @@ namespace MegaDesk_3_HiramTodd
 		}
 
 		// Get quote for desk
-		public int quoteCalc()
-		{
-			QuoteTotal = BASE_PRICE + AreaCost() + DrawerCost() + (int)Desk.DeskMaterial + RushCost();
-			return QuoteTotal;
-		}
+		//public int quoteCalc()
+		//{
+		//	QuoteTotal = BASE_PRICE + AreaCost() + DrawerCost() + (int)Desk.DeskMaterial + RushCost();
+		//	return QuoteTotal;
+		//}
 
 		// Get the area cost of desk
-		private int AreaCost()
-		{
-			if (Desk.Area > THRESHOLD_SIZE)
-			{
-				return (Desk.Area - THRESHOLD_RUSH) * PER_DRAWER_PRICE;
-			}
-			else
-			{
-				return 0;
-			}
-		}
+		//private int AreaCost()
+		//{
+		//	if (Desk.Area > THRESHOLD_SIZE)
+		//	{
+		//		return (Desk.Area - THRESHOLD_RUSH) * PER_DRAWER_PRICE;
+		//	}
+		//	else
+		//	{
+		//		return 0;
+		//	}
+		//}
 
 		// Get the cost of drawers
-		private int DrawerCost()
-		{
-			int DrawerCost = Desk.Drawers * PER_AREA_PRICE;
-			return DrawerCost;
-		}
+		//private int DrawerCost()
+		//{
+		//	int DrawerCost = Desk.Drawers * PER_AREA_PRICE;
+		//	return DrawerCost;
+		//}
 
 		//// Get cost of rush option
 		//private int RushDays()
